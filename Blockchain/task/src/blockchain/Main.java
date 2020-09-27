@@ -69,7 +69,7 @@ class Block {
         sb.append("Hash of the block: \n");
         sb.append(StringUtil.applySha256(this));
         sb.append("\n");
-        sb.append("block was generating for ");
+        sb.append("Block was generating for ");
         sb.append(generatingTimeInSeconds);
         sb.append(" seconds");
 

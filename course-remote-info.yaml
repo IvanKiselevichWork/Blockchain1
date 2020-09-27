@@ -222,8 +222,6 @@ topics:
   - title: Custom serialization
     theory_id: 3616
   2:
-  - title: Computer programming
-    theory_id: 8739
   - title: Singleton
     theory_id: 3555
   - title: Command

@@ -1,7 +1,8 @@
 content:
   - Fill the declaration
-- The forgotten comments
-- Check the value
-- Pizza Decorator
-- Breakfast Decorator
+  - The forgotten comments
+  - Check the value
+  - Pizza Decorator
+  - Breakfast Decorator
   - Coffee Decorator
+  - Cinema Facade

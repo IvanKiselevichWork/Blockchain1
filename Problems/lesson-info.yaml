@@ -1,15 +1,16 @@
 content:
-  - Fill the declaration
-  - The forgotten comments
-  - Check the value
-  - Pizza Decorator
-  - Breakfast Decorator
-  - Coffee Decorator
-  - Cinema Facade
-  - Computer Facade
-  - Smart house
-  - Ascending and descending sorting
-  - Apply function to all elements
-  - The longest string in the list
-  - Split a list into sublists
-  - Spell checker
+- Fill the declaration
+- The forgotten comments
+- Check the value
+- Pizza Decorator
+- Breakfast Decorator
+- Coffee Decorator
+- Cinema Facade
+- Computer Facade
+- Smart house
+- Ascending and descending sorting
+- Apply function to all elements
+- The longest string in the list
+- Split a list into sublists
+- Spell checker
+- Ternary operator

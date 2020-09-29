@@ -1,8 +1,8 @@
 type: code
 files:
-  - name: src/Main.java
-    visible: true
-    text: "import java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\
+- name: src/Main.java
+  visible: true
+  text: "import java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\
     import java.util.Scanner;\nimport java.util.stream.Collectors;\n\nclass ListUtils\
     \ {\n\n    /**\n     * It splits the passed list into a sequence of sublists with\
     \ a predefined size \n     */\n    public static <T> List<List<T>> splitListIntoSubLists(List<T>\
@@ -19,7 +19,7 @@ files:
     \ representation = subList.stream().map(Object::toString).collect(Collectors.joining(\"\
     \ \"));\n            System.out.println(representation);\n        });\n    }\n\
     }"
-    learner_created: false
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2329
 status: Solved
 feedback:

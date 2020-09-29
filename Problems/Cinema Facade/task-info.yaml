@@ -1,8 +1,8 @@
 type: code
 files:
-  - name: src/Main.java
-    visible: true
-    text: "class CinemaFacadeTestDrive {\n    public static void main(String[] args)\
+- name: src/Main.java
+  visible: true
+  text: "class CinemaFacadeTestDrive {\n    public static void main(String[] args)\
     \ throws InterruptedException {\n        PopcornPopper popcorn = new PopcornPopper();\n\
     \        Lights lights = new Lights();\n        Projector projector = new Projector();\n\
     \n        CinemaFacade cinemaFacade = new CinemaFacade(popcorn, lights, projector);\n\
@@ -26,7 +26,7 @@ files:
     \ + \" off\");\n\t}\n\n\tpublic void dim(int level) {\n\t\tSystem.out.println(description\
     \ + \" dimming to \" + level  + \"%\");\n\t}\n\n\tpublic String toString() {\n\
     \t\treturn description;\n\t}\n}"
-    learner_created: false
+  learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5530
 status: Solved
 feedback:

@@ -1,0 +1,26 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.function.*;
+
+    class Operator {
+
+        public static <T, U> Function<T, U> ternaryOperator(
+                Predicate<? super T> condition,
+                Function<? super T, ? extends U> ifTrue,
+                Function<? super T, ? extends U> ifFalse) {
+
+            return null; // your implementation here
+
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2400
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2400">JetBrains
+    Academy</a></html>
+  time: Tue, 29 Sep 2020 13:28:29 UTC
+record: -1

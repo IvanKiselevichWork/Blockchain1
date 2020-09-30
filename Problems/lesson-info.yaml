@@ -3,16 +3,16 @@ content:
 - The forgotten comments
 - Check the value
 - Pizza Decorator
-- Breakfast Decorator
-- Coffee Decorator
-- Cinema Facade
-- Computer Facade
-- Smart house
-- Ascending and descending sorting
-- Apply function to all elements
-- The longest string in the list
-- Split a list into sublists
-- Spell checker
+  - Breakfast Decorator
+  - Coffee Decorator
+  - Cinema Facade
+  - Computer Facade
+  - Smart house
+  - Ascending and descending sorting
+  - Apply function to all elements
+  - The longest string in the list
+  - Split a list into sublists
+  - Spell checker
   - Ternary operator
   - Accounts
   - An infinite numbers supplier
@@ -25,3 +25,4 @@ content:
   - Maximum of the absolute values
   - Count words without repetitions
   - Sum of divisors
+  - Range quadratic sum

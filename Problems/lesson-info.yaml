@@ -1,5 +1,5 @@
 content:
-- Fill the declaration
+  - Fill the declaration
 - The forgotten comments
 - Check the value
 - Pizza Decorator
@@ -22,3 +22,4 @@ content:
 - Check if a number is prime
 - Numbers filtering
 - Sorting the absolute values
+- Maximum of the absolute values

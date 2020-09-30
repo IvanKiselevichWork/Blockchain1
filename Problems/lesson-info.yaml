@@ -1,8 +1,8 @@
 content:
   - Fill the declaration
-- The forgotten comments
-- Check the value
-- Pizza Decorator
+  - The forgotten comments
+  - Check the value
+  - Pizza Decorator
   - Breakfast Decorator
   - Coffee Decorator
   - Cinema Facade
@@ -26,3 +26,4 @@ content:
   - Count words without repetitions
   - Sum of divisors
   - Range quadratic sum
+  - Calculating factorials

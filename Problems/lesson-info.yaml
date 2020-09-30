@@ -13,14 +13,15 @@ content:
 - The longest string in the list
 - Split a list into sublists
 - Spell checker
-- Ternary operator
-- Accounts
-- An infinite numbers supplier
-- The chain of responsibility
-- Comparing strings ignoring whitespaces
-- Finding max and min elements
-- Check if a number is prime
-- Numbers filtering
-- Sorting the absolute values
-- Maximum of the absolute values
+  - Ternary operator
+  - Accounts
+  - An infinite numbers supplier
+  - The chain of responsibility
+  - Comparing strings ignoring whitespaces
+  - Finding max and min elements
+  - Check if a number is prime
+  - Numbers filtering
+  - Sorting the absolute values
+  - Maximum of the absolute values
   - Count words without repetitions
+  - Sum of divisors

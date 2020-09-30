@@ -23,4 +23,10 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2326
 status: Solved
+feedback:
+  message: |-
+    <html>you're cool !
+
+    <br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2326">JetBrains Academy</a></html>
+  time: Mon, 28 Sep 2020 17:18:46 UTC
 record: -1

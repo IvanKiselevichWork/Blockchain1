@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.stream.Collectors;
+    import java.util.stream.Stream;
+
+    class StreamUtils {
+
+        public static Stream<Integer> generateStreamWithPowersOfTwo(int n) {
+            return Stream.empty(); // replace it with your code
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10184
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10184">JetBrains
+    Academy</a></html>
+  time: Thu, 01 Oct 2020 14:13:03 UTC
+record: -1

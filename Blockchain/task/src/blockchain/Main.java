@@ -192,7 +192,10 @@ class Block {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Block:\n");
-        sb.append("Created by miner # " + ThreadLocalRandom.current().nextInt(1, 10));
+        int minerId = ThreadLocalRandom.current().nextInt(1, 10);
+        sb.append("Created by miner # " + minerId);
+        sb.append("\n");
+        sb.append("miner # " + minerId + " gets 100 VC");
         sb.append("\n");
         sb.append("Id: ");
         sb.append(id);
@@ -211,7 +214,7 @@ class Block {
         sb.append("\n");
         sb.append("Block data: \n");
         if (messages == null) {
-            sb.append("no messages");
+            sb.append("No transactions");
         } else {
             messages.forEach(message -> sb.append(message.getData()));
         }
@@ -226,7 +229,7 @@ class Block {
 
 class Blockchain {
     private static final int MIN_ZERO_COUNT = 0;
-    private static final int MAX_ZERO_COUNT = 30;
+    private static final int MAX_ZERO_COUNT = 3;
     private static final int MIN_GENERATING_TIME_IN_SECONDS = 5;
     private static final int MAX_GENERATING_TIME_IN_SECONDS = 10;
     private final List<Block> blocks = new ArrayList<>();
@@ -348,11 +351,11 @@ public class Main {
         int zeroCount = 0;
         int previousZeroCount = 0;
         Block block;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 15; i++) {
             block = blockchain.generateBlock(zeroCount);
             Message message = null;
             if (i != 0) {
-                message = MessageUtil.generateMessage("message" + i);
+                message = MessageUtil.generateMessage("miner #9 sent 30 VC to miner #" + i);
                 block.setMessage(List.of(message));
             }
             previousZeroCount = zeroCount;

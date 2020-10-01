@@ -13,6 +13,7 @@ class Block {
     private final String previousBlockHash;
     private int magicNumber;
     private int generatingTimeInSeconds;
+    private String message;
 
     public Block(Long id, Long timestamp, String previousBlockHash) {
         this.id = id;
@@ -48,6 +49,14 @@ class Block {
         return generatingTimeInSeconds;
     }
 
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -68,6 +77,9 @@ class Block {
         sb.append("\n");
         sb.append("Hash of the block: \n");
         sb.append(StringUtil.applySha256(this));
+        sb.append("\n");
+        sb.append("Block data: ");
+        sb.append(message == null ? "no messages" : message);
         sb.append("\n");
         sb.append("Block was generating for ");
         sb.append(generatingTimeInSeconds);
@@ -178,6 +190,7 @@ class StringUtil {
         sb.append(block.getTimestamp());
         sb.append(block.getPreviousBlockHash());
         sb.append(block.getMagicNumber());
+        sb.append(block.getMessage());
         String input = sb.toString();
         return applySha256(input);
     }
@@ -192,6 +205,9 @@ public class Main {
         Block block;
         for (int i = 0; i < 5; i++) {
             block = blockchain.generateBlock(zeroCount);
+            if (i != 0) {
+                block.setMessage("message" + i);
+            }
             previousZeroCount = zeroCount;
             zeroCount = blockchain.addBlock(block);
             System.out.println(block);
